@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 /* .roboto-regular {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -84,7 +86,7 @@ button.case-study-btn {
     height: 35px;
     line-height: 35px;
     border-radius: 5px;
-    color: #ec003e;
+    color: #e8326f;
     border: navajowhite;
     display: table;
     padding: 0;
@@ -378,7 +380,7 @@ ul.grynow-tabs li {
 }
 
 :root {
-    --branding-red: #de0d40;
+    --branding-red: #e8326f;
     --branding-purple: #504ed8;
     --dark-heading: #091238;
     --marquee-width: 100vw;
@@ -609,9 +611,9 @@ header {
 }
 
 .btn-primary:hover {
-    border-color: #de0d40;
-    background-color: #de0d40;
-    background: #de0d40;
+    border-color: #e8326f;
+    background-color: #e8326f;
+    background: #e8326f;
     color: #fff;
     transition-delay: 0.1s
 }
@@ -1895,7 +1897,7 @@ a.scroll-top-top {
 }
 
 .home-icons {
-    background-image: url(../assets/home-page/home-icons.webp);
+    background-image: url(https://www.grynow.in/assets/home-page/home-icons.webp);
     background-repeat: no-repeat
 }
 
@@ -2647,7 +2649,7 @@ ul.nav-pills li {
 }
 
 .influ-text h2 span {
-    color: #ec003e;
+    color: #e8326f;
     font-weight: 600
 }
 
@@ -4640,7 +4642,7 @@ ul.footer-links li {
 }
 
 .courses-link-list li a:hover {
-    color: #de0d40;
+    color: #e8326f;
 }
 
 .courses-link-list li i {
@@ -4654,7 +4656,7 @@ ul.footer-links li {
 }
 
 .small-post-item .post-date {
-    color: #de0d40;
+    color: #e8326f;
     margin-bottom: 3px;
     font-family: var(--para-font);
     font-weight: 400;
@@ -4682,7 +4684,7 @@ ul.footer-links li {
 .news-letter-form input[type="submit"] {
     width: auto;
     border: none;
-    background-color: #de0d40;
+    background-color: #e8326f;
     padding: 9px 30px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -4703,7 +4705,7 @@ ul.footer-links li {
 }
 
 .copy-right-text a {
-    color: #de0d40;
+    color: #e8326f;
 }
 
 .terms-privacy li+li {
@@ -4726,4 +4728,198 @@ ul.footer-links li {
 
 .terms-privacy li+li a:after {
     display: none;
+}
+
+.want-know-more {
+    letter-spacing: -1px;
+    font-family: BebasNeue;
+
+}
+
+.contect-us-dg {
+    width: auto;
+    border: none;
+    background-color: #e8326f;
+    padding: 9px 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.sectionHeading {
+    margin: 0;
+    padding: 0;
+    border-left: 12px solid #fefefe;
+    padding: 0 0 0 20px;
+    margin: 0 0 20px 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 46px;
+   
+}
+.work-flows-dg{
+    background-color: #e8326f;
+}
+.MarketingTop {
+    background-color: #e8326f;
+}
+.MarketingTop h1 {
+    font-size: 45px;
+    color: white;   
+    line-height: 60px;
+}
+.MarketingTop p {
+    font-size: 20px;
+    /* text-align: justify; */
+    line-height: 30px;
+}
+.read-more-dg{
+ border-color: #fff;
+}
+.read-more-dg:hover{
+ border-color: #fff;
+ background-color: #fff;
+ color: #e8326f !important;
+}
+
+.platFormCard {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px 10px;
+    margin-top: 35px;
+}
+.platFormIcon{
+    height: 80px;
+    width: 80px;
+    border: 1px solid;
+    border-color: gray;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 50%;
+}
+.platFormCard h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.platFormCard{
+    box-shadow: 0 4px 9px 2px #0000001a;
+    background-color: #fff;
+    border: none;
+}
+/* ****************************** */
+
+
+
+.testimonial{
+    border: 10px solid #662a66;
+    padding: 40px 0 25px 0;
+    margin: 50px;
+    text-align: center;
+    position: relative;
+}
+.testimonial:before{
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: #fff;
+    margin: 0 auto;
+    font-size: 70px;
+    font-weight: 900;
+    color: #f1971f;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+}
+.testimonial .title{
+    padding: 7px 0;
+    margin: 0 -30px 20px;
+    border: 7px solid #fff;
+    background: #e8326f;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+}
+.testimonial .title:before{
+    content: "";
+    border-top: 15px solid #662a66;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    bottom: -37px;
+    left: 0;
+}
+.testimonial .title:after{
+    content: "";
+    border-top: 15px solid #662a66;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    bottom: -37px;
+    right: 0;
+}
+.testimonial .post{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
+.testimonial .description{
+    padding: 0 20px;
+    margin: 0;
+    font-size: 15px;
+    color: #6f6f6f;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.owl-theme .owl-controls{ margin-top: 0; }
+.owl-theme .owl-controls .owl-buttons div{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    background: #f1971f;
+    color: #fff;
+    border-radius: 0;
+    margin-right: 5px;
+    opacity: 1;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f060";
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    font-weight: 900;
+}
+.owl-next:before{ content: "\f061"; }
+@media only screen and (max-width: 990px){
+    .testimonial{ margin: 30px; }
+}
+.section-m{
+    margin: 6rem 0;
+}
+.short-text{
+    color: #e8326f;
+    font-weight: 600;
+}
+p{
+    font-family: "Lexend Deca", Sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "DM Sans", Sans-serif !important;
 }
