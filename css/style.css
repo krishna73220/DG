@@ -4960,6 +4960,11 @@ h6 {
         margin: 4rem 0;
     }
     .find-online{
-        margin-left: 0px;
+        margin-left: 0px !important;
     }
+    .jumbotron-slider .video-wraper video, .jumbotron-slider .video-wraper img {       
+        top: -90px;  
+        height: 126%;   
+    }
+   
 }
